@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WA89cnRNQ/7iq8PyclwEUmhCEd4axp0oW0EGwgO2XfzsJ7yCX41LH9aHy5js0Cy73/XJwAR+wjqlTvd5P9bt0p/N5ghjnR5O/K97tnyLCLVVnpw0kKF6Ih1J9Aff/lUIhjHfBc4nWPq7pTB8XPB6EavVC6oADqO8++8ELCXhf7p2OKi3STw9IVd1jZI0AqC6jb1y2p9CtcqKLdhedxze3cWK6dncM64Ni6Q0sanCvqsa15Rp0NHzzGyuzt83G+W+UbZdGs9jMUks45IXXaMZwyMki9wb/Y+oVhpb+fIRtjDOZ/etTMn0lvcXuiS8QSLkGbyetZdsZDebwtLR93k2aLL5NQLvG9QRpBGmThDrFfyouYIbKS/e5xsMTL6467siTTa6yTlKais8nDhz+FVSjlPMR52ynVc6tjFqZ32vekUW4BM5tltYUlLVm+LOBK2hRuWlAdrfBfIRH9TNCVzuT3RPTZ1VJ4RVlWXrNRVJkRljOOJ7sQKjaaQISIujkK6RUxvDSqgtwvEu7G327FIZ8dTOhkxXoFwRv9QwGgQfumdi9wqn8A3laaGA78hCzi+EHi3lm1doxSL5dDwXdowf+1maB6ypbuyjVEozt92Ksfgab0RXEY5XnwSHf2aTzMYGNGnYzFBEzHMuAUj4F5CwUF8TRem97t2Lf738gpTB8M4=
+  app: stormy-basin-27145
+  on:
+    repo: norkuy/node-shopping-list-integration-tests
